@@ -15,9 +15,9 @@ const Home = () => {
             I'm a FrontEnd Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I am a Frontend developer who can take up Full Stack projects in both desgining and building softwares requested by clients.
+            I am a Frontend developer who can take up Full Stack projects in both Web and Mobile Applications and able to sucessfully develop softwares base on clients request.
             Currently, I love to work on web application using technologies like
-            React, Tailwind, BootStrap, NodeJs, Php, and Laravel, etc.
+            React, Tailwind, BootStrap, NodeJs, Laravel, and Flutter for mobile app development etc.
           </p>
           <div>
             <Link
