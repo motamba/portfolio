@@ -2,6 +2,7 @@ import React from "react";
 import NodejsCrudApp from "../assets/portfolio/NodejsCrudApp.jpg";
 import zomatoClone from "../assets/portfolio/zomatoClone.jpg";
 import LaravelCrudApp from "../assets/portfolio/LaravelCrudApp.jpg";
+import ExpenseTrackerApp from "../assets/portfolio/ExpenseTrackerApp.jpg";
 
 
 const Portfolio = () => {
@@ -15,9 +16,13 @@ const Portfolio = () => {
       src: LaravelCrudApp,
     },
     {
-      id: 5,
+      id: 3,
       src: zomatoClone,
     },
+    {
+      id: 4,
+      src: ExpenseTrackerApp,
+    }
     
   ];
 
@@ -42,14 +47,7 @@ const Portfolio = () => {
                 alt=""
                 className="rounded-md duration-200 hover:scale-105"
               />
-              <div className="flex items-center justify-center">
-                <button className=" w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
-                </button>
-                <button className="px-6 py-3 w-1/2 m-4 duration-200 hover:scale-105">
-                  Code
-                </button>
-              </div>
+              
             </div>
           ))}
         </div>

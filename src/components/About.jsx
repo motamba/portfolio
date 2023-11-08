@@ -13,7 +13,7 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20">
-          My name is Modou Tamba, a young ambitious, hardworking, focused, and time consioused Junior Developer.
+          My name is Modou Tamba, a young ambitious, hardworking, focused, and time consioused Software Developer.
           I have the ability to take up full stack projects in both Web and Mobile Applications from scratch to completion. I have worked with
           several Web Application using technologies both frontend and backend which includes, ReactJs, Tailwind CSS,
           BootStrap CSS, NodeJS, ExpressJs, Laravel, and React Native for app development. I have also worked with databases like MySQL and MongoDB.
