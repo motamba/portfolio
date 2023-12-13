@@ -1,27 +1,22 @@
 import React from "react";
-import NodejsCrudApp from "../assets/portfolio/NodejsCrudApp.jpg";
-import zomatoClone from "../assets/portfolio/zomatoClone.jpg";
-import LaravelCrudApp from "../assets/portfolio/LaravelCrudApp.jpg";
-import ExpenseTrackerApp from "../assets/portfolio/ExpenseTrackerApp.jpg";
+import TravelAppUI from "../assets/portfolio/TravelAppUI.jpg";
+import Ecstore from "../assets/portfolio/Ecstore.jpg";
+import AdminDashboard from "../assets/portfolio/AdminDashboard.jpg";
 
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: NodejsCrudApp,
+      src: TravelAppUI,
     },
     {
       id: 2,
-      src: LaravelCrudApp,
+      src: Ecstore,
     },
     {
       id: 3,
-      src: zomatoClone,
-    },
-    {
-      id: 4,
-      src: ExpenseTrackerApp,
+      src: AdminDashboard,
     }
     
   ];
@@ -36,7 +31,7 @@ const Portfolio = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Portfolio
           </p>
-          <p className="py-6">Check out some of my work right here</p>
+          <p className="py-6">Check out some of my most recent projects</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
@@ -47,7 +42,8 @@ const Portfolio = () => {
                 alt=""
                 className="rounded-md duration-200 hover:scale-105"
               />
-              
+               <a href="https://drive.google.com/file/d/1YaIc89N0nxwVm6qblQCElcos3_b6GUGV/view?usp=sharing" className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"> Demo</a>
+               <a href="https://github.com/motamba?tab=repositories" className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"> Code</a>
             </div>
           ))}
         </div>

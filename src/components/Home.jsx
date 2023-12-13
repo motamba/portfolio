@@ -15,9 +15,13 @@ const Home = () => {
             I'm a Software Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I am a Software developer who can take up Full Stack projects in both Web and Mobile Applications and I have the ability to sucessfully develop softwares base on clients request.
-            Currently, I love to work on web application using technologies like
-            React, Tailwind, BootStrap, NodeJs, Laravel, and React Native for mobile app development etc.
+              Strong in design and integration with intuitive problem-solving skills. 
+              Proficient in  JAVASCRIPT, and skilled in JAVA, C#, PYTHON, DATA STRUCTURES AND ALGORITHMS,  
+              RELATIONAL and Non-RELATIONAL DATABASES.
+              Passionate about learning new skills, implementing and launching new projects. 
+              Ability to translate business requirements into technical solutions. 
+              Looking for an opportunity work as a software developer with 
+              a reputed firm driven by technology.
           </p>
           <div>
             <Link
