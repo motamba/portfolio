@@ -2,6 +2,7 @@ import React from "react";
 import TravelAppUI from "../assets/portfolio/TravelAppUI.jpg";
 import Ecstore from "../assets/portfolio/Ecstore.jpg";
 import AdminDashboard from "../assets/portfolio/AdminDashboard.jpg";
+import Resto from "../assets/portfolio/Resto.JPG";
 
 
 const Portfolio = () => {
@@ -17,6 +18,10 @@ const Portfolio = () => {
     {
       id: 3,
       src: AdminDashboard,
+    },
+    {
+      id: 4,
+      src: Resto,
     }
     
   ];
@@ -42,7 +47,7 @@ const Portfolio = () => {
                 alt=""
                 className="rounded-md duration-200 hover:scale-105"
               />
-               <a href="https://drive.google.com/file/d/1YaIc89N0nxwVm6qblQCElcos3_b6GUGV/view?usp=sharing" className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"> Demo</a>
+               
                <a href="https://github.com/motamba?tab=repositories" className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"> Code</a>
             </div>
           ))}
