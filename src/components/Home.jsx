@@ -14,7 +14,7 @@ const Home = () => {
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
             I'm a Software Developer
           </h2>
-          <p className="text-white-500 py-4 max-w-md">
+          <p className="text-white py-4 max-w-md">
               Strong in design and integration with intuitive problem-solving skills. Proficient in  JAVASCRIPT, API INTEGRATION and skilled in JAVA, C#, PYTHON, DATA STRUCTURES AND ALGORITHMS,  RELATIONAL and Non-RELATIONAL DATABASES.
               Passionate about learning new skills, implementing and launching new projects. Ability to translate business requirements into technical solutions. 
               Looking for an opportunity work as a software developer with a reputed firm driven by technology.
